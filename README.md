@@ -98,7 +98,7 @@ There are 3 ways the program can be used in the command-line terminal interface:
 
 1. User could use the -d option `python3 comment_analysis.py -d with the default config file, and modify the url in config.json:`
 
-    ```
+```
 {
    "url": "https://www.youtube.com/watch?v=5luGt0W9iyM",
    "include_replies": 0,
@@ -110,7 +110,7 @@ There are 3 ways the program can be used in the command-line terminal interface:
 2. User could provide their own config file with --cf option: `python3 comment_analysis.py -cf custom.json`
 3. User could manual provide all of the parameters using the following command:
 
-    ```
+```
 python3 comment_analysis.py --url https://www.youtube.com/watch?v=Lp2TwoaW_Hw --include_replies 1 --output sentiment_analysis_chart 
 ```
 
